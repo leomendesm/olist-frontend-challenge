@@ -10,13 +10,14 @@ class PasswordStrength extends Component {
 
         const sum = number+upper+length;
 
-        //Add style according to filters
+        //Add style to the password rules according to filters
         const rule = (rule, size) => classNames(
             'rule',
             {'rule-red': (rule === false && size > 0)},
             {'rule-green': rule === true},
         )
         
+        //Add style to the bar according to filters        
         const bar = (sum, position) => classNames(
             'bar',
             {'bar-red': (sum === 1 && position <= 1)? true:false},

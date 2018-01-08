@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Input from './components/Input';
+import Input from './components/input/Input';
 import Button from './components/button/Button';
-import PasswordStrength from './components/PasswordStrength';
+import PasswordStrength from './components/passwordStrength/PasswordStrength';
 
 class App extends Component {
   constructor(props){
@@ -15,6 +15,7 @@ class App extends Component {
       size: 0,
     }
   }
+
   passwordChanged(e){
     const str = e.target.value
     const size = str.length
@@ -23,6 +24,7 @@ class App extends Component {
     const number = str.search(/[0-9]/g) !== -1
     this.setState({length, upper, number, size})
   }
+  
   render() {
     return (
       <div className='App'>
