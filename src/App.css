@@ -2,12 +2,12 @@
 
 .App {
   text-align: center;
-  width: 35%;
+  width: 80%;
   background: #FFFFFF;
   border: 3px solid #F2F2F2;
   margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
@@ -21,4 +21,12 @@
   color: #312F4F;
   margin-top: 0px; 
   margin-bottom: 37px;
+}
+@media only screen and (min-width: 769px) {
+  .App {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 }

@@ -1,16 +1,21 @@
 .form-control{
-    display: flex;
-    flex-direction: column;
-    margin: 24px 70px 24px 70px;
+	display: flex;
+	flex-direction: column;
+	margin: 24px 35px 24px 35px;
 }
 .input{
-    border: 1px solid #B6B9D0;
-    padding: 15px;
-    color: #9499B3;
+	border: 1px solid #B6B9D0;
+	padding: 15px;
+	color: #9499B3;
 }
 .label{
-    align-self: flex-start;
-    color: #696D8C;
-    font-size: 16px;
-    line-height: 26px;
+	align-self: flex-start;
+	color: #696D8C;
+	font-size: 16px;
+	line-height: 26px;
+}
+@media only screen and (min-width: 769px) {
+	.form-control{
+		margin: 24px 70px 24px 70px;
+	}
 }
