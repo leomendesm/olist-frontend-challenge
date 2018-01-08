@@ -1,12 +1,12 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './Input.css';
 
-class Input extends React.Component {
+class Input extends Component {
     render(){
         return (
             <div className='form-control'>
                 <label className='label' htmlFor={this.props.inputName}>{this.props.inputName}</label>
-                <input className='input' id={this.props.inputName} type={this.props.type} name={this.props.inputName}/>
+                <input className='input' id={this.props.inputName} onChange={this.props.changeHandler} type={this.props.type} name={this.props.inputName}/>
             </div>
         )
     }
