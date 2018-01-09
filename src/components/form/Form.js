@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Input from './components/input/Input';
-import Button from './components/button/Button';
-import PasswordStrength from './components/passwordStrength/PasswordStrength';
+import logo from './../../logo.svg';
+import './Form.css';
+import Input from './../input/Input';
+import Button from './../button/Button';
+import PasswordStrength from './../passwordStrength/PasswordStrength';
 
-class App extends Component {
+class Form extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -41,4 +41,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Form;

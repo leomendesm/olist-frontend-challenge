@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 .App {
   text-align: center;
   width: 80%;
@@ -8,9 +12,9 @@
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
+
 .logo{
   margin-top: 60px;
   margin-bottom: 24px;
