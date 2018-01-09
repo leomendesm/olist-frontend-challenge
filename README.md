@@ -1,4 +1,4 @@
-# OLIST Frontend Test - [PT-BR](https://github.com/leomendesm/olist-frontend-challenge/blob/master/README-PT=BR.md)
+# OLIST Frontend Test - [PT-BR](https://github.com/leomendesm/olist-frontend-challenge/blob/master/README-PT-BR.md)
 
 ### Requirements
 
